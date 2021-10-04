@@ -1,0 +1,30 @@
+.table__cell_pic {
+    /*margin: 0;*/
+    width: 284px;
+    height: 213px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
+.table__cell_pic:nth-child(4n) {
+    margin-right: 0;
+}
+.table__cell_pic:nth-child(8n) {
+    margin-right: 0;
+}
+.table__cell_pic:nth-child(12n) {
+    margin-right: 0;
+}
+
+.table__cell_pic:nth-child(9n) {
+    margin-bottom: 0;
+}
+.table__cell_pic:nth-child(10n) {
+    margin-bottom: 0;
+}
+.table__cell_pic:nth-child(11n) {
+    margin-bottom: 0;
+}
+.table__cell_pic:nth-child(12n) {
+    margin-bottom: 0;
+}
