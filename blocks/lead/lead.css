@@ -1,9 +1,33 @@
 .lead {
     display: flex;
     flex-direction: column;
-    width: 984px;
+    justify-content: center;
+    margin: 0;
+    margin-top: 56px;
     margin-left: 148px;
     margin-right: 148px;
-    margin-top: 136px;
     margin-bottom: 92px;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead {
+        margin-top: 48px;
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .lead {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 88px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .lead {
+        margin-top: 48px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 64px
+    }
 }

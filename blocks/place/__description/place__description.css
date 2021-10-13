@@ -1,11 +1,41 @@
 .place__description {
-    width: 484px;
-    height: 460px;
-    margin: 0;
+    /* width: 484px; */
+    /* height: 35.9%; */
+    /* margin: 0; */
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 163%;
     /* or 29px */
-    color: #FFFFFF;
+}
+
+@media screen and (min-width: 1280px) {
+    .place {
+        grid-template-columns: repeat(2, 460px);
+        grid-template-rows: auto;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .place {
+        grid-template-columns: repeat(2, 460px);
+        grid-template-rows: auto;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .place {
+        grid-template-columns: repeat(2, 440px);
+        grid-template-rows: auto;
+    }
+}
+@media screen and (max-width: 768px) {
+    .place {
+        grid-template-columns: repeat(2, 352px);
+        grid-template-rows: auto;
+    }
+}
+@media screen and (max-width: 425px) {
+    .place {
+        grid-template-columns: repeat(1, 288px);
+        grid-template-rows: auto;
+    }
 }

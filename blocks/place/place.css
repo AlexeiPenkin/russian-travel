@@ -1,16 +1,14 @@
 .place {
     display: grid;
-    grid-template: 76px 76px / 460px 500px;
-    column-gap: 40px;
+    gap: 48px 40px;
+    object-fit: cover;
+    justify-content: center;  
+    width: 100%;
     margin: 0;
-    margin-bottom: 80px;
-    width: 984px;
-    height: 660px;
-    border: none;
+    padding: 0;
+    margin-bottom: 50px;
+
 }
-.place:nth-child(1n) {
-    grid-template: 200px 200px / 460px 500px;
-}
-.place:nth-child(4n) {
-    grid-template: 200px 200px / 460px 500px;
+.place:nth-child(5n) {
+    margin-bottom: 0;
 }

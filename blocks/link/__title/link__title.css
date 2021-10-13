@@ -1,0 +1,30 @@
+.link__title {
+    max-width: 560px;
+    min-height: 152px; 
+    font-size: 72px;
+    line-height: 76px;
+    font-weight: 900;
+    align-self: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 32px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 425px) {
+    .link__title {
+        min-height: 70px;
+        font-size: 42px;
+        line-height: 46px;
+        margin-bottom: 16px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .link__title {
+        min-height: 70px;
+        font-size: 32px;
+        line-height: 35px;
+        margin-bottom: 16px;
+    }
+}

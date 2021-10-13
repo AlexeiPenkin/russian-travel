@@ -1,13 +1,9 @@
 .intro__list {
-    width: 690px;
-    min-height: 90px;
-    margin: 0;
-    margin-left: 0;
-    font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 12px;
     line-height: 18px;
-    /* or 150% */
+    margin: 0;
+    margin-left: 0;
+    margin-top: 33px;
     color: #FFFFFF;
-    border: none;
 }

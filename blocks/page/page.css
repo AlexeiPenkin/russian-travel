@@ -1,8 +1,9 @@
 .page {
+  display: flex;
+  flex-direction: column;
   max-width: 1280px;
-  min-width: 320px;
+  height: auto;
   margin: 0 auto;
-  /*height: 6875px;*/
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
