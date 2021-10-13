@@ -1,12 +1,11 @@
-.place__description {
-    /* width: 484px; */
-    /* height: 35.9%; */
-    /* margin: 0; */
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.125rem;
-    line-height: 163%;
-    /* or 29px */
+.place__paragraph {
+    font-size: 18px;
+    line-height: 29px;
+    margin: 0;
+    margin-bottom: 26px;
+}
+.place__paragraph:nth-child(2n) {
+    margin-bottom: 0;
 }
 
 @media screen and (min-width: 1280px) {
