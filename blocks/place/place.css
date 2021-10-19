@@ -1,53 +1,55 @@
 .place {
     display: grid;
-    /* grid-template-columns: repeat(2, minmax(min-content max-content));
-    grid-template-rows: repeat(2, minmax(min-content max-content)); */
-    gap: 48px 40px;
-    object-fit: cover;
     justify-content: center;
+    gap: 48px 40px; /* 3.75vw 3.125vw; */
+    margin-left: 148px;
+    margin-right: 148px;
     width: 100%;
     margin: 0;
     padding: 0;
-    margin-bottom: 50px;
-
+    margin-bottom: 80px;
 }
 .place:nth-child(5n) {
     margin-bottom: 0;
+    object-fit: contain;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 1280px) {
     .place {
-        grid-template-columns: repeat(2, 460px);
+        grid-template-columns: repeat(2, minmax(460px, 1fr)); /* repeat(2, 28.75rem, 30.25rem); */
         grid-template-rows: auto;
+
     }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width:1279px) {
     .place {
-        grid-template-columns: repeat(2, 440px);
+        grid-template-columns: repeat(2, minmax(27.5rem, 28.5rem));
         grid-template-rows: auto;
+        gap: 4.69vw 3.13vw;
+        margin-bottom: 80px;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 665px) and (max-width:1023px) {
     .place {
-        grid-template-columns: repeat(2, 352px);
+        grid-template-columns: repeat(2, minmax(21.25rem, 22rem));
         grid-template-rows: auto;
-        gap: 1em 1.43em;
-        margin-bottom: 73px;
+        gap: 7.22vw 4.21vw;
+        margin-bottom: 72px;
     }
 }
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 425px) and (max-width:664px) {
     .place {
-        grid-template-columns: 385px;
+        grid-template-columns: repeat(1, 425px);
         grid-template-rows: auto;
-        gap: 1.5em;
+        gap: 7.53vw;
         margin-bottom: 50px;
     }
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 424px) {
     .place {
-        grid-template-columns: repeat(1, 288px);
+        grid-template-columns: repeat(1, 320px);
         grid-template-rows: auto;
-        gap: 32px;
+        gap: 10vw;
         margin-bottom: 50px;
     }
 }
