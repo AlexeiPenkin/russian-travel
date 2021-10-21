@@ -20,3 +20,4 @@ CSS
 8. Медиазапросы.
 
 # Ссылка на GitHub Pages
+https://alexeipenkin.github.io/russian-travel/

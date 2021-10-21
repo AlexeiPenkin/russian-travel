@@ -16,7 +16,7 @@
         margin-bottom: 92px;
     }
 }
-@media screen and (min-height: 665px) and (max-width: 1006px) {
+@media screen and (max-width: 1006px) {
     .photo-grid {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6, 1fr);

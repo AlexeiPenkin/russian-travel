@@ -3,6 +3,7 @@
     margin: 0;
     margin-right: 0;
     margin-left: auto;
+    padding-bottom: 0;
 }
 
 @media screen and (min-width: 665px) and (max-width:1023px) {

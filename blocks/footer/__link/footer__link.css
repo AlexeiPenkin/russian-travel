@@ -1,5 +1,5 @@
 .footer__link {
-    /* display: flex; */
+    display: inline-block;
     margin-right: 18px;
     color: #FFFFFF;
     text-decoration: none;
@@ -17,9 +17,9 @@
 }
 @media screen and (min-width: 665px) and (max-width:1023px) {
     .footer__link {
-        font-size: 2vw;
-        line-height: 2.3vw;
-        margin-bottom: 0;
+        font-size: 2.08vw;
+        line-height: 2.34vw;
+        padding-bottom: 0;
     }
 }
 @media screen and (min-width: 320px) and (max-width: 664px) {
@@ -30,7 +30,7 @@
     }
 }
 @media screen and (min-width: 320px) and (max-width: 664px) {
-    .footer__link:last-child {
+    .footer__link:nth-child(5) {
         margin-bottom: 0;
     }
 }
