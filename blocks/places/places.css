@@ -11,15 +11,17 @@
     .places {
         margin-left: 4.69vw;
         margin-right: 4.69vw;
+        margin-bottom: 92px;
     }
 }
 @media screen and (min-width: 665px) and (max-width:1023px) {
     .places {
         margin-left: 3.61vw;
         margin-right: 3.61vw;
+        margin-bottom: 90px;
     }
 }
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 664px) {
     .places {
         margin-left: 1.56vw;
         margin-right: 1.56vw;
